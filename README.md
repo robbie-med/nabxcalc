@@ -7,4 +7,4 @@ Sodium content data was taken from here (https://www.ncbi.nlm.nih.gov/pmc/articl
 
 Here is how to add the app to your mobile phone homepage, so it acts like a normal app (https://www.androidauthority.com/add-website-android-iphone-home-screen-3181682/) but if you're on GitHub then you probably don't need that.  
 
-linktree (https://linktr.ee/robbiemed)
+made by robbiemed | get in touch (https://robbiemed.org) | A.D. 2024, S.D.G.
