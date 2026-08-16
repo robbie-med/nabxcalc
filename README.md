@@ -8,3 +8,17 @@ Sodium content data was taken from here (https://www.ncbi.nlm.nih.gov/pmc/articl
 Here is how to add the app to your mobile phone homepage, so it acts like a normal app (https://www.androidauthority.com/add-website-android-iphone-home-screen-3181682/) but if you're on GitHub then you probably don't need that.  
 
 made by robbiemed | get in touch (https://robbiemed.org) | A.D. 2024, S.D.G.
+
+## Development
+
+NabxCalc is a Create React App project (react-scripts 5, React 18).
+
+```sh
+npm install
+npm start        # dev server
+npm run build    # production build
+```
+
+The original 2024 build is preserved at `/legacy/` (served from `public/legacy/`).
+
+The drug/fluid data model lives in `src/drugs.js`. Every intrinsic sodium value is taken from the FDA package insert (via DailyMed or manufacturer labeling), with per-value citation URLs in each entry's `sources` field.
